@@ -1,3 +1,5 @@
+/* TAG SELECTORS */
+
 body {
     background-color: rgb(124, 66, 42);
 }
@@ -11,6 +13,12 @@ h1 {
     text-shadow: 5px 10px 10px black;
 }
 
+/* img {
+    background-color: red;
+} */
+
+/* CLASS SELECTORS */
+
 div.baconImg {
     padding: 10%;
     background-image: url("/Bacon.jpg");
@@ -21,4 +29,12 @@ div.baconImg {
 div.baconParagraph {
     text-align: center;
     color: aliceblue;
+}
+
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
 }
