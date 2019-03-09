@@ -13,10 +13,6 @@ h1 {
     text-shadow: 5px 10px 10px black;
 }
 
-/* img {
-    background-color: red;
-} */
-
 /* CLASS SELECTORS */
 
 div.baconImg {
@@ -33,8 +29,29 @@ div.baconParagraph {
 
 .bacon {
     background-color: green;
+    width: 20%;
+    transition: width 2s;
 }
+
 
 .broccoli {
     background-color: red;
+    width: 20%;
+    transition: width 2s;
+}
+
+
+.bacon:hover, .broccoli:hover {
+    width: 30%;
+    background-color: none;
+}
+
+/* ID SELECTORS */
+
+#header {
+    color: red;
+}
+
+#broccoli {
+    border-radius: 100%;
 }
