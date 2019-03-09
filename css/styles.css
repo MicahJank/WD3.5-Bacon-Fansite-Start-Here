@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(124, 66, 42);
+}
+
+h1 {
+    color: red;
+    width: 100%;
+    text-align: center;
+    font-size: 1000%;
+    margin: 0;
+    text-shadow: 5px 10px 10px black;
+}
+
+div.baconImg {
+    padding: 10%;
+    background-image: url("/Bacon.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+div.baconParagraph {
+    text-align: center;
+    color: aliceblue;
+}
